@@ -39,4 +39,7 @@ Route::post('/pembangkit', 'App\Http\Controllers\Api\ControllerPembangkit@store'
 Route::put('/update_pembangkit/{pembangkit}', 'App\Http\Controllers\Api\ControllerPembangkit@update');
 Route::delete('/delete_pembangkit/{pembangkit}', 'App\Http\Controllers\Api\ControllerPembangkit@destroy');
 
+Route::get('/forum', 'App\Http\Controllers\Api\ControllerForum@index');
+Route::post('/forum', 'App\Http\Controllers\Api\ControllerForum@store');
+
 Route::apiResource('/user_registrasi', App\Http\Controllers\Api\ControllerRegitrasi::class);
