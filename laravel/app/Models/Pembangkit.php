@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pembangkit extends Model
 {
-    use HasFactory;
+    use HasFactory; 
 
     protected $primaryKey = 'id_pembangkit';
 

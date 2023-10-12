@@ -9,7 +9,7 @@ class Documentation extends Model
 {
     use HasFactory;
 
-    protected $table = 'documentations';
+    protected $table = 'documentations'; 
 
     protected $fillable = [
         'nama_documentation',
